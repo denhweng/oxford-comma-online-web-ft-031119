@@ -7,7 +7,7 @@ def oxford_comma(array)
   elsif array.length > 2
     # array[-1] << "and "
     # array.join(", ")
-    new_array = "#{array[0...-1].join(', ')} and #{array.last}
+    new_array = "#{array[0...-1].join(', ')} and #{array.last}"
     new_array
   end
 end
